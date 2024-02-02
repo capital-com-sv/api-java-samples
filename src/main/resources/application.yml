@@ -1,0 +1,19 @@
+capital.api:
+  domain.URL: https://api-capital.backend-capital.com
+capital.api.demo:
+  domain.URL: https://demo-api-capital.backend-capital.com
+capital.user:
+  login:
+  password:
+  apiKey:
+settings:
+  epics: ["NVDA", "TSLA", "GOLD", "SILVER", "NATURALGAS", "OIL_CRUDE"]
+  resolutions: ["HOUR"]
+  quantityPresents: 5
+  quantityManual: 5
+  quantityUsingManual: true
+  sltpPresents: 2
+  sltpPipsFromLowestPrice: 50
+  sltpUsingPips: true
+  RSIPeriod: 14
+  finacc: "185402794597232926"
